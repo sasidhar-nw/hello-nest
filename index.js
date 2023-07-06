@@ -5,3 +5,7 @@ export const sayHello = (personName) => {
 export const getName = (personName) => {
   return `Hello ${personName}`;
 };
+
+export const getDate = () => {
+  return new Date().toLocaleDateString();
+};
