@@ -9,3 +9,7 @@ export const getName = (personName) => {
 export const getDate = () => {
   return new Date().toLocaleDateString();
 };
+
+export const getTime = () => {
+  return new Date().toLocaleTimeString();
+};
